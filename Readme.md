@@ -13,13 +13,13 @@
 #### There are 2 main end points related to payments.
 
 **1. api/v1/Payments:** This will allow you to submit new payment through payment gateway. API also supports basic input validations for card number, expiry year, month etc.
-#### Response codes:
+###### Response codes:
           201: New transaction record with success/failure payment status code. Location header with newly created resource.\
           400: Any validation error on payment request.\
           500: Unknown error.
 
 **2. api/v1/Payments/{paymentId}** : This will allow you to view the existing payment transaction record with status details. The card number is masked due to security reasons.
-#### Response codes:
+###### Response codes:
           200: Transaction record.\
           404: Record not found.\
           500: Unknown error.
