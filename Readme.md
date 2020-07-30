@@ -24,10 +24,12 @@
           404: Record not found.
           500: Unknown error.
 
+#### Process diagram: PaymentGatewayAPI.png
+
 #### Notes:
   * BankSimulator/api/v1/Charge: This endpoint is used to simulate the bank response.
   * Currently application is storing the transaction details in local folder called Data with TransactionId as the name of the file.
 
-#### Future:
+#### Future enhancements:
 1. Adding authentication token for post and get requests.
 2. Containerisation.
