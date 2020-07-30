@@ -1,6 +1,6 @@
 **Payment Gateway API **
 
-# A RESTful API to manage payments with various banks.#
+# A RESTful API to manage payments with various banks.
 
 **Getting Started**
 
