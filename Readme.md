@@ -13,12 +13,14 @@
 #### There are 2 main end points related to payments.
 
 **1. api/v1/Payments:** This will allow you to submit new payment through payment gateway. The status code 201 will return if the payment transaction was processed by the bank either successfully or with failure. You can navigate to the newly created transaction with the url in response header called "location". In case of any validation errors, response will be 400 with the error details.
+
 **Response codes:**
      201: New transaction record with success/failure payment status code. Location header with newly created resource.
      400: Any validation error on payment request.
      500: Unknown error.
 
 **2. api/v1/Payments/{paymentId}** : This will allow you to view the existing payment transaction record with status details. The card number is masked due to security reasons.
+
 **Response codes:**
      200: Transaction record.
      404: Record not found.
