@@ -14,7 +14,7 @@
 
 **1. api/v1/Payments:** This will allow you to submit new payment through payment gateway. API also supports basic input validations for card number, expiry year, month etc.
 #### Response codes:
-          201: New transaction record with success/failure payment status code. Location header with newly created resource.
+          201: New transaction record with success/failure payment status code. Location header with newly created resource url.
           400: Any validation error on payment request.
           500: Unknown error.
 
@@ -27,3 +27,7 @@
 #### Notes:
   * BankSimulator/api/v1/Charge: This endpoint is used to simulate the bank response.
   * Currently application is storing the transaction details in local folder called Data with TransactionId as the name of the file.
+
+#### Future:
+1. Adding authentication token for post and get requests.
+2. Containerisation.
