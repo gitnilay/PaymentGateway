@@ -10,10 +10,10 @@
 
 #### There are 2 API end points related to payments.
 
-**1.** /api/v1/Payments: This will allow you to submit new payment through payment gateway. The status code 201 will return if the payment transaction was processed by the bank either successfully or with failure. You can navigate to the newly created transaction with the url in response header called "location". In case of any validation errors, response will be 400 with the error details.
+**1.** api/v1/Payments: This will allow you to submit new payment through payment gateway. The status code 201 will return if the payment transaction was processed by the bank either successfully or with failure. You can navigate to the newly created transaction with the url in response header called "location". In case of any validation errors, response will be 400 with the error details.
 
-**2.** /api/v1/Payments/{paymentId} : This will allow you to view the existing payment transaction record with status details. The card number is masked due to security reasons.
+**2.** api/v1/Payments/{paymentId} : This will allow you to view the existing payment transaction record with status details. The card number is masked due to security reasons.
 
-**/BankSimulator/api/v1/Charge**: This endpoint is used to simulate the bank response.
-
-* Currently application is storing the transaction details in local folder called Data with TransactionId as the name of the file.
+#### Notes:
+  * BankSimulator/api/v1/Charge**: This endpoint is used to simulate the bank response.
+  * Currently application is storing the transaction details in local folder called Data with TransactionId as the name of the file.
