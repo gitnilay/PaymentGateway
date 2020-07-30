@@ -4,9 +4,9 @@
 
 ### Getting Started
 
-=You can either run the application via command prompt or open the solution in visual studio and run the application.
+  You can either run the application via command prompt or open the solution in visual studio and run the application.
 
-==Open up the command prompt and navigate to the PaymentGateway folder and run the command dotnet run. Open http://localhost:62279 in browser to see the swagger page.
+  Open up the command prompt and navigate to the PaymentGateway folder and run the command dotnet run. Open http://localhost:62279 in browser to see the swagger page.
 
 #### There are 2 API end points related to payments.
 
