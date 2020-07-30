@@ -24,7 +24,7 @@
           404: Record not found.
           500: Unknown error.
 
-#### Process diagram: PaymentGatewayAPI.png
+#### Process diagram: [a relative link](PaymentGatewayAPI.png)
 
 #### Notes:
   * BankSimulator/api/v1/Charge: This endpoint is used to simulate the bank response.
