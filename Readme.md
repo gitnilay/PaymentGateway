@@ -8,7 +8,7 @@
 
   Open up the command prompt and navigate to the PaymentGateway folder and run the command dotnet run. 
 
-### Swagger page: http://localhost:62279/index.html
+#### Swagger: http://localhost:62279/index.html
 
 #### There are 2 API end points related to payments.
 
