@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway", "PaymentGateway\PaymentGateway.csproj", "{DD2DC449-E97A-46DF-8347-E13AC1E798BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Tests.Unit", "PaymentGateway.Tests.Unit\PaymentGateway.Tests.Unit.csproj", "{809A11BD-3AAD-4706-80E1-7230C52180C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE6E21DE-8A0A-4D1E-A7AF-D68B6DBE2ED5}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD2DC449-E97A-46DF-8347-E13AC1E798BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2DC449-E97A-46DF-8347-E13AC1E798BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2DC449-E97A-46DF-8347-E13AC1E798BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2DC449-E97A-46DF-8347-E13AC1E798BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809A11BD-3AAD-4706-80E1-7230C52180C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809A11BD-3AAD-4706-80E1-7230C52180C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809A11BD-3AAD-4706-80E1-7230C52180C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809A11BD-3AAD-4706-80E1-7230C52180C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11122DD9-EDFB-457C-ABB7-38CB30E178FA}
+	EndGlobalSection
+EndGlobal
